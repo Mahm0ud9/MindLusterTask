@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import {
   Box,
   Typography,
@@ -38,6 +38,15 @@ const Column = ({ columnId, columnLabel, tasks, onEdit, onDelete, onAdd }) => {
   }, [filteredTasks, pagination]);
 
   const totalPages = Math.ceil(filteredTasks.length / pagination.pageSize);
+
+  // If current page is empty because tasks were moved/deleted, go back to the previous valid page
+  useEffect(() => {
+    if (pagination.page > totalPages && totalPages > 0) {
+      dispatch(setColumnPage({ column: columnId, page: totalPages }));
+    } else if (totalPages === 0 && pagination.page !== 1) {
+      dispatch(setColumnPage({ column: columnId, page: 1 }));
+    }
+  }, [totalPages, pagination.page, columnId, dispatch]);
 
   const handlePageChange = (event, value) => {
     dispatch(setColumnPage({ column: columnId, page: value }));
