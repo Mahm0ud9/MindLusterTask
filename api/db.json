@@ -83,48 +83,6 @@
       "description": "Improve UX with loading indicators",
       "column": "review",
       "priority": "low"
-    },
-    {
-      "id": "a0f8",
-      "title": ".",
-      "description": ".",
-      "column": "backlog",
-      "priority": "medium"
-    },
-    {
-      "id": "f606",
-      "title": ".",
-      "description": ".",
-      "column": "backlog",
-      "priority": "medium"
-    },
-    {
-      "id": "655d",
-      "title": "asd",
-      "description": "asd",
-      "column": "backlog",
-      "priority": "medium"
-    },
-    {
-      "id": "3155",
-      "title": "asd",
-      "description": "asd",
-      "column": "backlog",
-      "priority": "medium"
-    },
-    {
-      "title": "eqw",
-      "description": "qw",
-      "column": "done",
-      "priority": "medium",
-      "id": "juGqLRe"
-    },
-    {
-      "title": "qwd",
-      "description": "ads",
-      "column": "done",
-      "priority": "high",
-      "id": "5PcKBjm"
     }
   ]
 }
