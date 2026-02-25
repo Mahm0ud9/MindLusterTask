@@ -37,5 +37,8 @@ npm run dev
 ```
 *The app will be available at http://localhost:3000*
 
+## Live Preview
+The project is also configured for deployment on Vercel. Once pushed to GitHub and linked to Vercel, the API will be available under the `/api` prefix, and the frontend will automatically connect to it.
+
 ---
 Happy Coding!

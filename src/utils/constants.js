@@ -6,8 +6,10 @@ export const COLUMNS = [
   { id: 'done', label: 'DONE', color: '#10B981' }, // green
 ];
 
-// API base URL - Points to the local json-server by default
-export const API_BASE_URL = 'http://localhost:4000';
+// API base URL
+export const API_BASE_URL = import.meta.env.MODE === 'production' 
+  ? '/api'
+  : 'http://localhost:4000';
 
 // Pagination defaults (3 tasks per page)
 export const DEFAULT_PAGE_SIZE = 3;

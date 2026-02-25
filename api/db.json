@@ -1,0 +1,130 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design homepage",
+      "description": "Include hero section with call-to-action",
+      "column": "backlog",
+      "priority": "high"
+    },
+    {
+      "id": "2",
+      "title": "Implement user authentication",
+      "description": "Add login and signup functionality",
+      "column": "in_progress",
+      "priority": "high"
+    },
+    {
+      "id": "3",
+      "title": "Write unit tests",
+      "description": "Cover all critical components",
+      "column": "in_progress",
+      "priority": "medium"
+    },
+    {
+      "id": "4",
+      "title": "Deploy to production",
+      "description": "Set up CI/CD pipeline",
+      "column": "review",
+      "priority": "high"
+    },
+    {
+      "id": "5",
+      "title": "Optimize database queries",
+      "description": "Review and improve query performance",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "6",
+      "title": "Create API documentation",
+      "description": "Document all endpoints with examples",
+      "column": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "7",
+      "title": "Fix mobile responsiveness",
+      "description": "Ensure UI works on all screen sizes",
+      "column": "in_progress",
+      "priority": "high"
+    },
+    {
+      "id": "8",
+      "title": "Add error handling",
+      "description": "Implement comprehensive error handling",
+      "column": "review",
+      "priority": "medium"
+    },
+    {
+      "id": "9",
+      "title": "Implement dark mode",
+      "description": "Add theme switcher",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "10",
+      "title": "Set up monitoring",
+      "description": "Configure application monitoring",
+      "column": "backlog",
+      "priority": "low"
+    },
+    {
+      "id": "11",
+      "title": "Refactor legacy code",
+      "description": "Improve code structure and readability",
+      "column": "review",
+      "priority": "medium"
+    },
+    {
+      "id": "12",
+      "title": "Add loading states",
+      "description": "Improve UX with loading indicators",
+      "column": "review",
+      "priority": "low"
+    },
+    {
+      "id": "a0f8",
+      "title": ".",
+      "description": ".",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "f606",
+      "title": ".",
+      "description": ".",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "655d",
+      "title": "asd",
+      "description": "asd",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "id": "3155",
+      "title": "asd",
+      "description": "asd",
+      "column": "backlog",
+      "priority": "medium"
+    },
+    {
+      "title": "eqw",
+      "description": "qw",
+      "column": "done",
+      "priority": "medium",
+      "id": "juGqLRe"
+    },
+    {
+      "title": "qwd",
+      "description": "ads",
+      "column": "done",
+      "priority": "high",
+      "id": "5PcKBjm"
+    }
+  ]
+}
